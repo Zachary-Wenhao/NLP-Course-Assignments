@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<POSTask>
+<TEXT><![CDATA[<!ENTITY name "POSTask">
+
+<!ELEMENT ADJECTIVE ( #PCDATA ) >
+<!ATTLIST ADJECTIVE start #IMPLIED >	
+
+<!ATTLIST ADJECTIVE position (attributive | predicative) #IMPLIED>
+
+<!ATTLIST ADJECTIVE morphology (normal | comparative | superlative) #IMPLIED>
+
+<!ATTLIST ADJECTIVE comment CDATA >
+
+]]></TEXT>
+</POSTask>
